@@ -19,8 +19,7 @@ function Login() {
         users.map((item)=>{
             if(item.name===nameinput&&item.email===emailinput&&item.pass===passinput){
                 count+=1;
-                navigate('/movies')
-            }
+                window.open("http://twitter.com/saigowthamr", "_blank");            }
         })
         if(count===0){
             uperror(true)
